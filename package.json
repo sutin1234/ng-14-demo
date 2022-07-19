@@ -6,6 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
+    "prepare": "husky install",
     "test": "ng test",
     "lint": "ng lint"
   },
@@ -38,7 +39,6 @@
     "@types/jest": "latest",
     "@typescript-eslint/eslint-plugin": "5.29.0",
     "@typescript-eslint/parser": "5.29.0",
-    "eslint": "^8.18.0",
     "husky": "^8.0.1",
     "jest": "latest",
     "lint-staged": "^13.0.3",
